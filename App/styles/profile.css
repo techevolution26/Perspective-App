@@ -1,0 +1,67 @@
+body {
+    background:#f0f0f0;
+    border-radius: 50px;
+}
+.nav {
+    left:88%;
+    margin-left:-150px;
+    top:10px;
+    position:absolute;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background:#fff;
+}
+.dropdown {
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:300px;    
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:20px;
+    width:300px;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px; /* Add padding for a larger clickable area */
+    border-radius: 30px; /* Makes the trigger circular */
+    background-color: #3498db; /* Background color of the button */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Optional: makes the text bold */
+}
+
+.dropdown-toggle:hover {
+    background-color: #2980b9; /* Darker background on hover */
+}
+
+.dropdown-toggle .glyphicon {
+    margin-left: 10px; /* Space between text and icon */
+}
