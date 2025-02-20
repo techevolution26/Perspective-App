@@ -1,0 +1,3 @@
+#Perspective_app
+An amazing way to making your Ideas come to life making the best out of your perceptions.
+Exploring every aspect that comes within from culture to education, Religion & every aspect that brings Life...
